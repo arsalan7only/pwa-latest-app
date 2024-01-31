@@ -1,24 +1,39 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Push Notification",
+  "name": "Push Notification",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "img/fulcrumdigital32",
+      "sizes": "32x32",
+      "type": "image/jpg"
     },
     {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
+      "src": "img/fulcrumdigital48",
+      "type": "image/jpg",
+      "sizes": "48x48"
     },
     {
-      "src": "logo512.png",
-      "type": "image/png",
+      "src": "img/fulcrumdigital64",
+      "type": "image/jpg",
+      "sizes": "64x64"
+    },
+    {
+      "src": "img/fulcrumdigital128",
+      "type": "image/jpg",
+      "sizes": "128x128"
+    },
+    {
+      "src": "img/fulcrumdigital256",
+      "type": "image/jpg",
+      "sizes": "256x256"
+    },
+    {
+      "src": "img/fulcrumdigital256",
+      "type": "image/jpg",
       "sizes": "512x512"
     }
   ],
-  "start_url": ".",
+  "start_url": "/",
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#ffffff"

@@ -2,14 +2,7 @@ const PRECACHE = "precache-v1";
 const RUNTIME = "runtime";
 
 //Resources always being precached on load.
-const PRECACHE_URLS = [
-  "/index.html",
-  "/",
-  "/barcode192.png",
-  "/barcode256.png",
-  "/barcode384.png",
-  "/barcode512.png",
-];
+const PRECACHE_URLS = ["/index.html", "/"];
 
 // Using install handler for precaching.
 self.addEventListener("install", (event) => {
